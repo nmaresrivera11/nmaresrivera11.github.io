@@ -1,0 +1,128 @@
+<!-- November 2022 Jumpstart -->
+<!-- To comment code in html  command + / or  control + /-->
+<!--
+  General Rule
+<tagname> Some Content </tagname>
+    ^                     ^
+opening tag             closing tag
+-->
+
+<!-- html boiler plate -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEARN's CornBread Dressing</title>
+    <!-- favicon: small image that sits on the chrome tab -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://images.unsplash.com/photo-1606331481324-de77ab01bb54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29ybmJyZWFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Sono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <h1 id="top">LEARN's Cornbread Dressing</h1>
+    <!-- Image -->
+    <img
+      src="https://images.unsplash.com/photo-1606331481324-de77ab01bb54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29ybmJyZWFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      alt="a small plate of delicious golden cornbread"
+      height="200px"
+    />
+    <!-- Back story -->
+    <p class="top-text">
+      Stay focused. In life you have to take the trash out, if you have trash in
+      your life, take it out, throw it away, get rid of it, major key. You see
+      the hedges, how I got it shaped up? It's important to shape up your
+      hedges, it's like getting a haircut, stay fresh. They key is to have every
+      key, the key to open every door. Bless up. Lion! Fan luv. In life you have
+      to take the trash out, if you have trash in your life, take it out, throw
+      it away, get rid of it, major key. Celebrate success right, the only way,
+      apple.
+    </p>
+    <p>
+      Another one. Let me be clear, you have to make it through the jungle to
+      make it to paradise, that's the key, Lion! In life there will be road
+      blocks but we will over come it. They never said winning was easy. Some
+      people can't handle success, I can. The key to success is to keep your
+      head above the water, never give up. The other day the grass was brown,
+      now it's green because I ain't give up. Never surrender. Surround yourself
+      with angels. Put it this way, it took me twenty five years to get these
+      plants, twenty five years of blood sweat and tears, and I'm never giving
+      up, I'm just getting started.
+    </p>
+    <!-- Subheaders -->
+    <!-- Ingredients -->
+    <h2>Ingredients</h2>
+    <div id="ingredients">
+      <ul>
+        <li>Cornbread</li>
+        <li>Butter</li>
+        <li>Onion</li>
+        <li>Celery</li>
+        <li>Sage</li>
+        <li>Poultry Seasoning</li>
+      </ul>
+    </div>
+    <!-- Recipe -->
+    <h2>Recipe</h2>
+    <div id="recipe">
+      <ol>
+        <li>Preheat oven to 400 degrees</li>
+        <li>Stir together all ingredients</li>
+        <li>Transfer to greased dish</li>
+        <li>Bake for 30 minutes until brown on top</li>
+      </ol>
+    </div>
+    <!-- Table -->
+    <br />
+    <table border="5">
+      <tr>
+        <!-- make these td cells clickable  -->
+        <!-- when clicked they turn into emojis -->
+        <td onclick="emojiMaker('glass')" id="glass">Glass</td>
+        <td onclick="emojiMaker('ceramic')" id="ceramic">Ceramic</td>
+        <td onclick="emojiMaker(3)" id="3">Cast Iron</td>
+      </tr>
+      <tr>
+        <td onclick="emojiMaker(4)" id="4">Needs longer time</td>
+        <td onclick="emojiMaker(5)" id="5">Good for deep dishes</td>
+        <td onclick="emojiMaker(6)" id="6">Maintains heat</td>
+      </tr>
+    </table>
+    <p class="top-text">
+      Another one. Let me be clear, you have to make it through the jungle to
+      make it to paradise, that's the key, Lion! In life there will be road
+      blocks but we will over come it. They never said winning was easy. Some
+      people can't handle success, I can. The key to success is to keep your
+      head above the water, never give up. The other day the grass was brown,
+      now it's green because I ain't give up. Never surrender. Surround yourself
+      with angels. Put it this way, it took me twenty five years to get these
+      plants, twenty five years of blood sweat and tears, and I'm never giving
+      up, I'm just getting started.
+    </p>
+    <!-- Footer -->
+    <footer>
+      &copy LEARN Team and TAs | November JumpStart |
+      <!-- adding a link to an external webpage  -->
+      <a
+        href="https://spicysouthernkitchen.com/southern-cornbread-dressing/"
+        target="_blank"
+      >
+        CornBread Dressing Recipe
+      </a>
+      |
+      <a href="#top">Top of page</a>
+    </footer>
+    <script type="text/javascript" src="cornBread.js"></script>
+  </body>
+</html>
